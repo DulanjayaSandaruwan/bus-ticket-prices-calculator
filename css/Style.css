@@ -112,7 +112,111 @@ body > main > div > button:hover {
     height: 100%;
 }
 
+.home > .textContainer {
+    position: absolute;
+    bottom: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: max-content;
+    width: 800px;
+    line-height: 5px;
+}
 
+.home > .textContainer > .txtTitle {
+    font-size: 60px;
+    color: #ff415b;
+    letter-spacing: 1px;
+}
 
+.home > .textContainer > .txtAbout {
+    font-size: 30px;
+    color: #f1c40f;
+    letter-spacing: 1px;
+    margin-left: 110px;
+}
+
+/*--------------------------Start About --------------------------------*/
+
+.about {
+    position: relative;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 100vh;
+}
+
+.about > .topicAbout {
+    position: absolute;
+    right: 630px;
+    top: 50px;
+    color: #33334f;
+    font-family: -apple-system, serif;
+    font-size: 15px;
+}
+
+.about > .txtContainer {
+    position: absolute;
+    background-color: #eeeeee;
+    width: 70%;
+    height: 60%;
+    border-radius: 20px;
+    box-shadow: 7px 7px 12px 0 #2b2a2a;
+    top: 145px;
+    left: 190px;
+}
+
+.about > .txtContainer > .txtDetails {
+    position: relative;
+    padding: 10px;
+    max-width: max-content;
+    line-height: 28px;
+    left: 26px;
+    top: -4px;
+    color: rgba(0, 0, 0, 0.78);
+    font-size: 20px;
+}
+
+/*--------------------------Start Calculate--------------------------------*/
+
+.calculate {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+
+.calculate > .topicCalculate {
+    position: absolute;
+    right: 630px;
+    top: 50px;
+    color: #33334f;
+    font-family: -apple-system, serif;
+    font-size: 15px;
+}
+
+.calculate > .hr {
+    position: relative;
+    width: 80%;
+    top: 150px;
+}
+
+.calculate > center > .buttonCalc {
+    position: relative;
+    top: 200px;
+}
+
+.calculate > center > .buttonCalc > .button {
+    position: relative;
+    width: 128px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #ff415b;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    top: -24px;
+    left: 33px;
+}
 
 

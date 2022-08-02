@@ -92,5 +92,27 @@ body > main > div > button:hover {
     cursor: pointer;
 }
 
+/*--------------------------Start Home--------------------------------*/
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.home > .backgroundImage {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.home > .backgroundImage > img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 
 

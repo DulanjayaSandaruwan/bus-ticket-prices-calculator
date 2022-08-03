@@ -1,8 +1,5 @@
-function multiplyBy()
-{
-    num1 = document.getElementById(
-        "firstNumber").value;
+function multiplyBy() {
+    num1 = document.getElementById("firstNumber").value;
 
-    document.getElementById(
-        "result").innerHTML = num1 * 122/100;
+    document.getElementById("result").innerHTML = num1 * 122/100;
 }

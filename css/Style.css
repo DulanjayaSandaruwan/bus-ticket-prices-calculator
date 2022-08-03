@@ -228,17 +228,20 @@ body > main > div > button:hover {
     margin: 20px auto 20px auto;
     display: block;
     border: solid 1px #289df6;
-    box-shadow: 0 0 40px 0 #ddd;
+    box-shadow: 0 0 40px 0 #949292;
     top: 150px;
 }
+
 .form:hover {
     box-shadow: 0 0 60px 0 #ccc;
     transition: 0.2s;
     transform: scale(1.05);
 }
+
 .row-one {
     padding: 20px;
 }
+
 .row-two {
     padding: 20px;
 }
@@ -252,12 +255,15 @@ body > main > div > button:hover {
     padding: 5px 10px;
     cursor: pointer;
 }
+
 .text-input:last-child {
     margin-bottom: 35px;
 }
+
 .text-input:hover {
     background-color: #cbe7fd;
 }
+
 #submit {
     border: none;
     border-radius: 10px;
@@ -270,19 +276,24 @@ body > main > div > button:hover {
     outline: none;
     cursor: pointer;
 }
+
 #submit:hover{
     background-color: #0a8ef2;
 }
+
 .text {
     display: inline-block;
     margin: 5px 20px 5px 8px;;
 }
+
 .row-one {
     padding: 30px 20px 15px 20px;
 }
+
 .row-two {
     padding: 15px 20px 30px 20px;
 }
+
 .container {
     display: inline-block;
     position: relative;
@@ -290,10 +301,12 @@ body > main > div > button:hover {
     cursor: pointer;
     user-select: none;
 }
+
 .container input {
     position: absolute;
     opacity: 0;
 }
+
 .checkmark {
     position: absolute;
     top: 0;
@@ -303,12 +316,15 @@ body > main > div > button:hover {
     background-color: #dbeffe;
     border-radius: 50%;
 }
+
 .container:hover input ~ .checkmark {
     background-color: #cbe7fd;
 }
+
 .container input:checked ~ .checkmark {
     background-color: #289df6;
 }
+
 h1 {
     font-size: 30px;
     font-weight: 300;
@@ -317,30 +333,36 @@ h1 {
     padding-top: 15px;
     display: block;
 }
+
 h2 {
     font-size: 22px;
     font-weight: 300;
     text-align: center;
 }
+
 h3 {
     font-size: 24px;
     font-weight: 300;
     text-align: center;
     padding: 15px;
 }
+
 h3 b {
     font-size: 32px;
     font-weight: 300;
     color: #FFFFFF;
 }
+
 .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
+
 .container input:checked ~ .checkmark:after {
     display: block;
 }
+
 .container .checkmark:after {
     left: 9px;
     top: 5px;
@@ -350,3 +372,26 @@ h3 b {
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
 }
+
+.inline-buttons {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    top: 200px;
+    left: 50px;
+}
+
+.inline-buttons > .buttonBus {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #ff415b;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+

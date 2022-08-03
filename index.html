@@ -90,7 +90,21 @@
             <h1>Calculate</h1>
         </div>
 
+        <form class="form" id="form" onsubmit="return validateForm()">
 
+            <div class="row-one">
+                <center>Lowest Ticket Price is 40 LKR</center>
+                <br> <br>
+                Enter Previous Price (LKR) : <input id="firstNumber"
+                                                    type="text"/><br> <Br>
+                <input Value="Submit" id="submit" onClick="multiplyBy()" type="button">
+
+                <p>New Ticket Price is (LKR) :
+                    <span id="result"></span>
+                </p>
+            </div>
+
+        </form>
 
     </section>
 
